@@ -7,5 +7,5 @@ puts "Where would you like to go?"
 puts "Enter a position 1-9"
 input= gets.strip
 position=input_to_index(input)
-move(board,position,char)
+move(board,position,char=X)
 display_board(board)
