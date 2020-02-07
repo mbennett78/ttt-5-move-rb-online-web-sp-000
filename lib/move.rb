@@ -12,3 +12,7 @@ def input_to_index(user_input)
     return user_input -1
     
 end
+
+def move(array,index,letter)
+  array[index]=letter
+end
