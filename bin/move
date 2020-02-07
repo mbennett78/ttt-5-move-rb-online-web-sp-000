@@ -8,4 +8,4 @@ puts "Enter a position 1-9"
 input= gets.strip
 index=input_to_index(input)
 move(game,index)
-display_board(game)
+display_board(board)
