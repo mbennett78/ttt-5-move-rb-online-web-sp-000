@@ -10,5 +10,5 @@ position=input_to_index(input)
 print "Choose your game token as 'X' or 'O'":"
 char=gets.strip
 
-move(board,position,char="X")
+move(board,position,char)
 display_board(board)
