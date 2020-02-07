@@ -9,6 +9,6 @@ input= gets.strip
 position=input_to_index(input)
 print "Choose your game token as 'X' or 'O'":"
 char=gets.strip
-puts "/n"
+
 move(board,position,char="X")
 display_board(board)
