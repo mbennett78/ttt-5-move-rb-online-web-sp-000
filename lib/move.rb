@@ -13,6 +13,6 @@ def input_to_index(user_input)
 
 end
 
-def move(array,index,letter)
-  array[index]=letter
+def move(board,position, "X")
+  board[position]=
 end
